@@ -4,6 +4,12 @@ THIS TOOL IS USED FOR CLONING ,
  HACKING & EXTRACT FB IDS SIMPLE
  WITH OR WITHOUTLOGIN EASLY FREE
 
+## Fixed This Error ##
+Before used Commands install them
+pkg install nodejs-Its
+npm
+
+
 ## INSTALL PACKAGES ##
 ```bash
 pkg update
@@ -38,7 +44,3 @@ Sub my channel
 ![Screenshot_20211010-133549](https://user-images.githubusercontent.com/69212320/136688674-dea30393-b083-413e-b09f-3af6258a4151.png)
 ![Screenshot_20211010-132651](https://user-images.githubusercontent.com/69212320/136688675-32caf120-862b-480f-bb9b-d5c322b9daae.png)
 
-## Fixed This Error ##
-
-pkg install nodejs-Its
-npm
