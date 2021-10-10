@@ -5,7 +5,7 @@ THIS TOOL IS USED FOR CLONING ,
  WITH OR WITHOUTLOGIN EASLY FREE
 
 ## INSTALL PACKAGES ##
-bash''''
+```bash
 pkg update
 pkg upgrade
 pkg install python
@@ -22,13 +22,14 @@ pkg install git
 git clone https://github.com/TechQaiser/Squid
 cd Squid
 python2 Squid.py
-bash''''
+````
 
 ### features ###
-bash''''
+```bash
 Crack From File
 Crack from Public
 Crack choice Pass
 Crack digit Pass
 India + Pakistan no Login Number
-Sub my channel ''''
+Sub my channel 
+````
