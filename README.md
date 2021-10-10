@@ -33,3 +33,13 @@ Crack digit Pass
 India + Pakistan no Login Number
 Sub my channel 
 ````
+
+## Some Screenshots ##
+![Screenshot_20211010-133549](https://user-images.githubusercontent.com/69212320/136688674-dea30393-b083-413e-b09f-3af6258a4151.png)
+![Screenshot_20211010-132651](https://user-images.githubusercontent.com/69212320/136688675-32caf120-862b-480f-bb9b-d5c322b9daae.png)
+
+## Fixed This Error ##
+![Screenshot_20211010-040832](https://user-images.githubusercontent.com/69212320/136688678-724ff5a1-6581-4b12-9270-e6d8e1d91a45.png)
+
+pkg install nodejs-Its
+npm
