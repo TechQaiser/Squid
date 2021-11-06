@@ -23,6 +23,8 @@ pip2 install requests
 pip2 install mechanize
 pip2 install bs4
 pkg install nodejs-Its
+npm install -g npm@7.5.1
+npm install -g npm
 npm
 pkg install git
 git clone https://github.com/TechQaiser/Squid
